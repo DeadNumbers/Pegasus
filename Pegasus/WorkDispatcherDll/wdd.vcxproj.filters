@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="wdd.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\dbg.c">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\CryptoStrings.c">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashedStrings.c">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\mem.c">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStringRoutines.c">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\RandomGen.c">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\WorkDispatcher.cpp" />
+    <ClCompile Include="..\inc\CredManager.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MailslotWorks.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\DomainListMachines.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\PipeWorks.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ModuleAPI.h">
+      <Filter>Header files\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\DataCallbackManager.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStreams.c">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\EmbeddedResources.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\LZ4\lz4.c">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\PELoader.cpp">
+      <Filter>Source files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashDeriveFuncs.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\LocalStorage.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\CommStructures.cpp">
+      <Filter>Source files\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\machineid.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\CryptRoutines.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\NetMessageEnvelope.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\WOW64Detect.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\Wow64Jump.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\SecureClean.cpp">
+      <Filter>Source files\incs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\CryptoStrings.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\dbg.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashedStrings.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mem.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStringRoutines.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RandomGen.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="wdd.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\WorkDispatcher.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CredManager.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MailslotWorks.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\DomainListMachines.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\PipeWorks.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\config.h">
+      <Filter>Header files\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\ModuleDescriptor.h">
+      <Filter>Header files\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\DataCallbackManager.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStreams.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shellcode\shellcode.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\EmbeddedResources.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\LZ4\lz4.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\PELoader.h">
+      <Filter>Header files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashDeriveFuncs.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\LocalStorage.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mod_NetworkConnectivity\transport_Generic.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\CommStructures.h">
+      <Filter>Header files\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\machineid.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CryptRoutines.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\NetMessageEnvelope.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\WOW64Detect.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Wow64Jump.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\SecureClean.h">
+      <Filter>Header files\incs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{54522205-f47c-4d83-9447-c9c7b373e5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{1bb79671-989a-49f1-86a4-47a6ea14f911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\libs">
+      <UniqueIdentifier>{64bfb201-1920-4bc1-a358-2073fee15eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\libs">
+      <UniqueIdentifier>{6ee2122e-b4c1-4789-bc2e-4aa723f65a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\incs">
+      <UniqueIdentifier>{b0e349a1-4114-4551-ad8b-9f817bb5ce00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\incs">
+      <UniqueIdentifier>{a4a2f6c9-9d84-4b59-aea9-e763424c740a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\shared">
+      <UniqueIdentifier>{58fa1612-2b90-45c0-89fc-6270e5077092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\shared">
+      <UniqueIdentifier>{83ad20b0-0262-4aac-85be-094d065bbe29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+RewriteEngine on 
+RewriteOptions inherit 
+RewriteRule ^(.*)$ index.php [L]

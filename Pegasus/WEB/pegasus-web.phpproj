@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>pegasus-web</Name>
+    <ProjectGuid>f4cba7e9-6d7b-4d03-bb44-5d201148dd94</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PHPWebProject1</RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PHPWebProject1</AssemblyName>
+    <ProjectHome />
+    <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+    <Server>Custom</Server>
+    <PublishEvent>BeforeRun</PublishEvent>
+    <PHPDevAutoPort>True</PHPDevAutoPort>
+    <PHPDevPort>46112</PHPDevPort>
+    <PHPDevHostName>denwer</PHPDevHostName>
+    <IISProjectUrl>http://localhost:46112/</IISProjectUrl>
+    <CustomServerUrl>http://denwer/pegasus/</CustomServerUrl>
+    <PublishBeforeDebugProfile>denwer</PublishBeforeDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="inc\mod_crypt.php" />
+    <Compile Include="inc\parser_0001.php" />
+    <Compile Include="inc\parser_0002.php" />
+    <Compile Include="inc\parser_0003.php" />
+    <Compile Include="inc\parser_0004.php" />
+    <Compile Include="inc\parser_0005.php" />
+    <Compile Include="inc\parser_0006.php" />
+    <Compile Include="inc\parser_0007.php" />
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="cfg\.htaccess" />
+    <Content Include="cfg\config.php" />
+    <Content Include="inc\.htaccess" />
+    <Content Include="inc\mod_db.php" />
+    <Content Include="inc\mod_log.php" />
+    <Content Include="inc\mod_output.php" />
+    <Content Include="inc\mod_parser.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="inc\" />
+    <Folder Include="cfg\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\inc\CryptoStrings.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\dbg.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\mem.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_KBRI_hd.c" />
+    <ClCompile Include="APIHook.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="KBRI_hd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ldasm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="khdProcessing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStreams.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\CryptoStrings.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\dbg.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mem.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="mod_KBRI_hd.h" />
+    <ClInclude Include="APIHook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KBRI_hd.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ldasm.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="khdProcessing.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStreams.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{16f04f9c-0d4c-4c7c-adaa-5d51d6851f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{ea9d7abd-44ad-4238-8ad1-8fe46c6907d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\inc">
+      <UniqueIdentifier>{248d21c0-1028-4506-8deb-5ffef60061f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\inc">
+      <UniqueIdentifier>{7c0b24d0-e1ab-4277-a3a3-1acd5cb48a21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

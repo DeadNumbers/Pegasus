@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="idd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\CryptoStrings.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\dbg.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\mem.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="Install_Injection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\ProcessInjectMP.cpp">
+      <Filter>Source Files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\DynImports.c">
+      <Filter>Source Files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashedStrings.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStringRoutines.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\RandomGen.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="PrivEsc.cpp">
+      <Filter>Source Files\PrivEsc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CryptoStrings.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\dbg.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mem.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Install_Injection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\ProcessInjectMP.h">
+      <Filter>Header Files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\DynImports.h">
+      <Filter>Header Files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashedStrings.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStringRoutines.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RandomGen.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\ModuleDescriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shellcode\shellcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivEsc.h">
+      <Filter>Source Files\PrivEsc</Filter>
+    </ClInclude>
+    <ClInclude Include="privesc_2015__0057_1701.h">
+      <Filter>Source Files\PrivEsc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e9874ae9-5322-4bf1-90b7-053fe676066c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{626d82b2-93ec-4885-ae5c-9e4a3067f6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs">
+      <UniqueIdentifier>{aa96f6c4-8d23-4164-a305-97ed9717fd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{096d18db-ef92-41b5-bef2-bf2e48da28fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\incs">
+      <UniqueIdentifier>{f41dc97e-2f8a-444c-8cd6-25b3b3784da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\incs">
+      <UniqueIdentifier>{68a8556c-6033-494b-981f-27c34db729ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PrivEsc">
+      <UniqueIdentifier>{4b49da22-8045-4577-8ae3-2f727546ee0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

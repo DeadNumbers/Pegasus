@@ -1,0 +1,6 @@
+{
+	"rtResourceType" : "RES_TYPE_SHELLCODE",
+	"emcModuleClassname" : 0,
+	"civClassnameIdValue" : 0,
+	"ModuleVersion" : "%shellcode_ep_offset%"
+}

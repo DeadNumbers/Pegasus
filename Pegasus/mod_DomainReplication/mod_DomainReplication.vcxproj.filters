@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\inc\RandomGen.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\CryptoStrings.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\dbg.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashedStrings.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\mem.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="DomainReplication.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WMI.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SCM.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_DomainReplication.c" />
+    <ClCompile Include="..\inc\MyStringRoutines.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\PipeWorks.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\DomainListMachines.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\CredManager.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\EmbeddedResources.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStreams.c">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashDeriveFuncs.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="RDP.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\RegFuncs.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\SecureClean.cpp">
+      <Filter>Sources\inc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\CryptoStrings.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\dbg.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashedStrings.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mem.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RandomGen.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="DomainReplication.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WMI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\config.h">
+      <Filter>Headers\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\ModuleDescriptor.h">
+      <Filter>Headers\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="SCM.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mod_DomainReplication.h" />
+    <ClInclude Include="..\inc\MyStringRoutines.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\ModuleAPI.h">
+      <Filter>Headers\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\PipeWorks.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\DomainListMachines.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CredManager.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\EmbeddedResources.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStreams.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashDeriveFuncs.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="RDP.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RegFuncs.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\SecureClean.h">
+      <Filter>Headers\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{16f04f9c-0d4c-4c7c-adaa-5d51d6851f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{ea9d7abd-44ad-4238-8ad1-8fe46c6907d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\inc">
+      <UniqueIdentifier>{248d21c0-1028-4506-8deb-5ffef60061f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\inc">
+      <UniqueIdentifier>{7c0b24d0-e1ab-4277-a3a3-1acd5cb48a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\shared">
+      <UniqueIdentifier>{384ad4cd-5a92-4644-80ca-af4977d85bed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

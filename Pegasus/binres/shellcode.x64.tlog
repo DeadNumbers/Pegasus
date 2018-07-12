@@ -1,0 +1,5 @@
+Z:\Sources\Pegasus\binres\shellcode.x64(C4FA4EB4h:4552/4244)[mod_DomainReplication x64]: DllEntry@92: DLL_PROCESS_ATTACH: entered
+Z:\Sources\Pegasus\binres\shellcode.x64(C4FA4EB4h:4552/4244)[mod_DomainReplication x64]: DllEntry@100: DLL_PROCESS_ATTACH: done
+Z:\Sources\Pegasus\binres\shellcode.x64(C4FA4EB4h:4552/4936)[mod_DomainReplication x64]: thrModuleRun@72: entered
+Z:\Sources\Pegasus\binres\shellcode.x64(C4FA4EB4h:4552/4936)[mod_DomainReplication x64]: infStartDomainReplication@740: entered
+Z:\Sources\Pegasus\binres\shellcode.x64(C4FA4EC4h:4552/4936)[mod_DomainReplication x64]: infStartDomainReplication@745: v2 now

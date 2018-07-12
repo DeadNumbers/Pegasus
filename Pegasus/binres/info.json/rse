@@ -1,0 +1,8 @@
+{
+	"rtResourceType" : "RES_TYPE_RSE",
+	"emcModuleClassname" : 0,
+	"civClassnameIdValue" : 0,
+	"ModuleVersion" : 1,
+	"DoSign" : 1,
+	"AVCheckSave": 1
+}

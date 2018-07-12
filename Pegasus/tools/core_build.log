@@ -1,0 +1,27 @@
+Core buildlog, mode RELEASE 
+Rebuilding RELEASE shellcode x32 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: shellcode, Configuration: Release Win32 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\Shellcode\shellcode.c")
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: PELoader.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: shellcode.h
+1>  :: dbgt.h
+1>  HashedStrings.c
+1>  PELoader.cpp
+1>  SHELLCODE mode
+1>  shellcode.c
+1>  Generating code
+1>  Finished generating code
+1>  Shellcode.vcxproj -> Z:\Sources\Pegasus\binres\shellcode.x32
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE shellcode x64 

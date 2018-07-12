@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{a98e1532-1a9f-454d-bb98-b142237a22d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\libs">
+      <UniqueIdentifier>{884d1b19-d44f-43be-a1e2-10637acc7096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\incs">
+      <UniqueIdentifier>{e28722b0-6050-4e42-bc1d-4cda2352a585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\incs">
+      <UniqueIdentifier>{454cfc1d-f375-4743-b318-2f8a82a1f686}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="rse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\dbg.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\mem.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\CryptoStrings.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\RandomGen.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStringRoutines.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashedStrings.c">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\PipeWorks.cpp">
+      <Filter>Source Files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\MyStreams.c">
+      <Filter>Source Files\incs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\inc\HashDeriveFuncs.cpp">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\dbg.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\mem.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\CryptoStrings.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStringRoutines.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\RandomGen.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashedStrings.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\PipeWorks.h">
+      <Filter>Header Files\incs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\MyStreams.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\HashDeriveFuncs.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

